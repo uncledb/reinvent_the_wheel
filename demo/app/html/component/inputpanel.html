@@ -9,14 +9,28 @@
             width: 200px;
         }
 
+        .input-only {
+            position: relative;
+            width: 100%;
+        }
+
         #test {
             width: 100%;
+        }
+
+        #wrong_img {
+            position: absolute;
+            z-index: 101;
+            right: 3px;
+            top: 3px;
         }
 
         #test_panel {
             border: solid 1px #aaaaaa;
             position: absolute;
             width: 100%;
+            z-index: 100;
+            background-color: #ffffff;
         }
     </style>
 
@@ -24,13 +38,25 @@
 <body>
 
 <div class="input-container">
-    <input type="text" id="test">
+    <div class="input-only">
+        <input type="text" id="test">
+        <img id="wrong_img" src="../../imgs/wrong.png" alt="清空">
+    </div>
     <div id="test_panel">
         <div>a</div>
         <div>b</div>
         <div>c</div>
         <div>d</div>
     </div>
+</div>
+<div>
+    <pre>
+    遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住
+    我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我
+    遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我
+    遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我遮住我
+    遮住
+    </pre>
 </div>
 
 </body>
