@@ -1,0 +1,19 @@
+{
+  "name": "reinvent_the_wheel",
+  "version": "1.0.0",
+  "description": "reinvent the wheel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncledb/reinvent_the_wheel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uncledb/reinvent_the_wheel/issues"
+  },
+  "homepage": "https://github.com/uncledb/reinvent_the_wheel#readme"
+}

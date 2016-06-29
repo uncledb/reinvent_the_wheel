@@ -1,12 +1,12 @@
 {
-  "name": "demo",
-  "description": "",
+  "name": "reinvent_the_wheel",
+  "description": "reinvent the wheel",
   "main": "index.js",
   "authors": [
     "uncledb <434967007@qq.com>"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/uncledb/reinvent_the_wheel",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,6 +15,5 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.0.0"
   }
 }
